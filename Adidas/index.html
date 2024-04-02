@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/globals.css">
+    <link rel="shortcut icon" href="images/icone.ico" type="image/x-icon">
+    <title>Adidas | Home</title>
+</head>
+<body>
+    <div class="navbar menu-show">
+        <div class="header-inner-content">
+            <img class="img-logo" src="images/logo.png">
+            <h1 class="logo">Adidas</h1>
+        
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Sobre</li>
+                <li>Contato</li>
+                <li>Conta</li>
+            </ul>
+        </nav>   
+             <div class="icons">
+                <img src="images/cart.png">
+                <img src="images/menu.png" class="menu-btn">
+             </div><!--icons-->
+        </div><!--header-inner-content-->
+    </div><!--navbar-->
+
+<header>
+    <div class="header">
+        <div class="header-bottom-side">
+            <div class="header-bottom-side-left">
+                <h2>O Maior Clube do Mundo Merece o Melhor Manto do Mundo!</h2>
+                <p>Se vista com estilo e sustentabilidade com a nova camisa do Real Madrid em parceria com a Y-3 X! Feita com materiais recicláveis de primeira linha, esta camisa combina desingn arrojado com conciência ambiental. Seja parte da mudança e vista-se com orgulho enquanto cuida do planeta!</p>
+                <button>Ver Agora</button>
+            </div><!--header-bottom-side-left-->
+            <div class="header-bottom-side-right">
+                <img src="images/header.png">
+            </div><!--header-bottom-side-right-->
+        </div><!--header-bottom-side-->
+    </div><!--header-->
+</header>
+
+<!--main content-->
+ <main>
+    <div class="gold-bg">
+        <div class="page-inner-content">
+            <div class="cols cols-3">
+                <img src="images/produtos/main 1.jpg">
+                <img src="images/produtos/main 2.jpg">
+                <img src="images/produtos/main 3.jpg">
+            </div><!--cols cols-3-->
+        </div><!--page-inner-content-->
+    </div><!--gold-bg-->
+    <div>
+        <div class="page-inner-content">
+            <h3 class="section-title">Produtos Selecionados</h3>
+            <div class="subtitle-underline"></div><!--subtitle-underline-->
+            <div class="cols cols4">
+                <div class="produto1">
+                <img src="images/produtos/masculino1.jpg">
+                <p>CAMISA 1 ALEMANHA 24</p>
+                <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                <p class="price">R$ 399,99</p>
+                </div><!--produto1-->
+
+                <div class="produto2">
+                <img src="images/produtos/masculino2.jpg">
+                <p>CAMISA 1 INTERNACIONAL SC 24</p>
+                <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                <p class="price">R$ 399,99</p>
+                </div><!--produto2-->
+
+                <div class="produto3">
+                <img src="images/produtos/feminino1.jpg">
+                <p>VESTIDO ADICOLOR CLASSICS 3-STRIPES MIDI</p>
+                <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                <p class="price">R$ 399,99</p>
+                </div><!--produto3-->
+
+                <div class="produto3">
+                <img src="images/produtos/feminino2.jpg">
+                <p>JAQUETA CORTA-VENTO OWN THE RUN</p>
+                <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                <p class="price">R$ 399,99</p>
+                </div><!--produto3-->
+
+            </div><!--cols cols4-->
+
+        </div><!--page-inner-content-->
+    </div>
+ </main>
+
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const menubtn = document.querySelector(".menu-btn");
+
+        menubtn.addEventListener('click', () => {
+            navbar.classList.toggle("menu-show");
+        })
+    </script>
+</body>
+</html>
